@@ -32,3 +32,8 @@ $textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('hello
 $response = $bot->pushMessage('<to>', $textMessageBuilder);
 
 echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
+
+{
+    "type": "text",
+    "text": "Hello, world"
+}
